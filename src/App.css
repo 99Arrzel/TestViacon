@@ -1,0 +1,81 @@
+table {
+  
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+thead td:first-child{
+  width: 50px;
+}
+
+
+thead tr {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+thead td {
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+}
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+tbody tr:hover {
+  background-color: #e0e0e0;
+}
+tbody img {
+  width: 40px;
+  border-radius: 10px
+}
+.time{
+  width: 100px
+}
+form {
+  display: flex;
+  padding: 20px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.inputBox label {
+  font-size: 14px;  
+}
+.inputBox{
+  display: flex;
+  flex-direction: column; /* Arrange items in a column */
+}
+input {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  font-family: Arial, sans-serif;
+}
+
+/* Add some padding and a subtle border */
+input[type="text"],input[type="password"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style for when the input is focused */
+input[type="text"]:focus {
+  border-color: #007bff; /* Change to your preferred focus color */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Add a placeholder color */
+input::placeholder {
+  color: #999;
+}
+.foto img {
+  width:50px;
+  height: auto;
+  border-radius: 25px;
+  padding: 0;
+}
